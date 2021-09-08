@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html language="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  
+    
+    <div id = "content">
+        <div>
+            <label for="language">Select Typing Language</label>
+            <select name="language" id="language" onchange="getTheValue()"></select>
+            </br>
+            </br>
+            <textarea id="box" placeholder="Input Box" cols="50" rows="50"></textarea>
+        </div>
+        <div>
+            <div id="head">
+                <label for="language">Select result Language</label>
+                <select name="language" id="languages" onchange="getTheValue()">
+                </select>
+                </br>
+                </br>
+            </div>
+            <textarea id="box2" placeholder="Output Box" cols="50" rows="50"></textarea>
+        </div>
+        <button onclick="translet()" id="transl">Translate</button>
+        <button onclick="swap()" id="swap">Swap</button>
+    </div>
+    <head>
+<script src="./recepie.js">
+    
+</script>
+        
