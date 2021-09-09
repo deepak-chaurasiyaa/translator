@@ -16,7 +16,7 @@
             <select name="language" id="language" onchange="getTheValue()"></select>
             </br>
             </br>
-            <textarea id="box" placeholder="Input Box" cols="50" rows="50"></textarea>
+            <textarea  oninput ="translet()" onkeypress="translet()" id="box" placeholder="Input Box" cols="50" rows="50"></textarea>
         </div>
         <div>
             <div id="head">
@@ -26,13 +26,13 @@
                 </br>
                 </br>
             </div>
-            <textarea id="box2" placeholder="Output Box" cols="50" rows="50"></textarea>
+            <textarea oninput ="translet1()" onkeypress="translet1()" id="box2" placeholder="Output Box" cols="50" rows="50"></textarea>
         </div>
         <button onclick="translet()" id="transl">Translate</button>
         <button onclick="swap()" id="swap">Swap</button>
     </div>
     <head>
-<script src="./recepie.js">
+<script src="./transletor.js">
     
 </script>
         
